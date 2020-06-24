@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import link.Links;
+import org.testng.annotations.AfterTest;
+
 import java.util.concurrent.TimeUnit;
 
 public class DriverPage {
@@ -21,6 +23,7 @@ public class DriverPage {
     public DriverPage() {
         PageFactory.initElements(driver, this);
     }
+
 
 }
 

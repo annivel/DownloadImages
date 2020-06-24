@@ -11,6 +11,7 @@ public class MainSteps extends Base {
         app.search.searchProfile(profileInfo);
         app.scrollHelper.scroll();
         app.download.searchAndSave();
+        app.close.appQuite();
 
     }
 }
